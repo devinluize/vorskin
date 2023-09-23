@@ -1,0 +1,1412 @@
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        
+        body {
+            background-color: #FFF3FC;
+        }
+        
+        #logo {
+            margin-right: 1.3020833333333333vw;
+        }
+        
+        #gambar1 {
+            vertical-align: middle;
+            width: 4.557291666666667vw;
+            height: 4.557291666666667vw;
+        }
+        
+        main {
+            margin-left: 3.4505208333333335vw;
+            margin-right: 3.4505208333333335vw;
+        }
+        
+        header {
+            background-color: #FFE5F9;
+            height: 4.8828125vw;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        li {
+            display: inline-block;
+        }
+        
+        li a {
+            width: 10.416666666666666vw;
+            position: relative;
+            font-family: 'Poppins';
+            display: block;
+            text-align: center;
+            padding: 0.3255208333333333vw;
+            text-decoration: none;
+            font-size: 1.3020833333333333vw;
+            font-weight: bold;
+            letter-spacing: 0.032552083333333336vw;
+        }
+        
+        li.utama ::after {
+            content: "";
+            position: absolute;
+            background-color: #000000;
+            height: 0.8152173913043478vh;
+            width: 100%;
+            left: 0;
+            bottom: -2.278820375335121vh;
+        }
+        
+        li.sub a:after {
+            content: "";
+            position: absolute;
+            background-color: #FFE5F9;
+            height: 0.8152173913043478vh;
+            width: 100%;
+            left: 0;
+            bottom: -2.278820375335121vh;
+            transform-origin: center;
+        }
+        
+        li.sub a:hover {
+            color: #696363;
+        }
+        
+        li.sub a:hover:after {
+            transition: all 0.5s;
+            background-color: #000000;
+        }
+        
+        a:link,
+        a:visited {
+            color: #000000;
+        }
+        
+        label.logo {
+            font-family: tangerine;
+            padding-right: 0.6510416666666666vw;
+            color: #B82D99;
+            vertical-align: middle;
+            font-size: 3.90625vw;
+            font-weight: bold;
+        }
+        /* ini untuk kotak product */
+        /* untuk judul bodycare */
+        
+        select {
+            margin-top: 35px;
+            margin-right: 10px;
+            width: 165px;
+            height: 55px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px;
+            direction: rtl;
+            background-color: #FFE5F9;
+        }
+        
+        .BodyCareTitle {
+            margin-top: 35px;
+            margin-left: 36px;
+            font-family: 'Sacramento';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 85px;
+            line-height: 90px;
+            color: #5C3333;
+        }
+        /* untuk tombol produk */
+        
+        .rectangle1btn {
+            border: none;
+            background-color: #FDBEBE;
+            border-radius: 42px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+            width: 167px;
+            height: 39px;
+        }
+        /* untuk tombol produk kalau dihover dia berubah wanra  */
+        
+        .rectangle1btn:hover {
+            border: none;
+            background-color: #E09494;
+            border-radius: 42px;
+            font-size: 16px;
+            color: #fcfcfc;
+            cursor: pointer;
+        }
+        /* untuk gambar body lotion  */
+        
+        .flex {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .space-between {
+            display: flex;
+            justify-content: space-between;
+        }
+        /* .flex2{
+align-items: center;
+} */
+        
+        .box-flex2 {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: center;
+        }
+        
+        .bodycare {
+            width: 250px;
+            height: 250px;
+            margin-left: 46px;
+            margin-right: 46px;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+        
+        .tulisan {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        
+        .rectangle1 {
+            margin-top: 56px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            width: 343px;
+            height: 420px;
+            border-radius: 40px;
+            background: #FFEED5;
+            margin-left: 36px;
+            margin-right: 36px;
+            /* margin-bottom: 56px; */
+        }
+        
+        .TitleBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: px;
+            /* margin-left: 75px; */
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+        }
+        
+        .TitleBodyCream {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: -130px;
+            /* margin-left: 75px; */
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+        }
+        
+        .TitleBodyButter {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: -130px;
+            /* margin-left: 75px; */
+            display: flex;
+            /* text-align: center; */
+            justify-content: center;
+        }
+        
+        .TitleBodyOil {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: -180px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .TitleBodyMoisture {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: -152px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        #hamburger {
+            margin-left: 20px;
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 25px;
+            height: 20px;
+        }
+        
+        .burger {
+            background-color: #000000;
+            border: solid #000000 2px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        
+        a:link,
+        a:visited {
+            color: #000000;
+        }
+        
+        #nav800 {
+            display: none;
+        }
+        
+        #nav800 ul {
+            width: 100%;
+            display: block;
+            /* height: 4.8828125vw;
+border-bottom: 2px solid #000000; */
+        }
+        
+        #nav800 li a {
+            width: 160px;
+            position: relative;
+            font-family: 'Poppins';
+            display: block;
+            text-align: center;
+            padding: 5px;
+            text-decoration: none;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+        }
+        
+        @media (max-width:800px) {
+            nav {
+                display: none;
+            }
+            #hamburger {
+                display: flex;
+            }
+            header {
+                height: 65px;
+                width: 100%;
+                border-bottom: 2px solid #000000;
+            }
+            li {
+                display: flex;
+                justify-content: center;
+            }
+            #nav800 {
+                display: inline;
+            }
+            #nav800 li a {
+                width: 100%;
+                font-family: 'Poppins';
+                text-align: center;
+                font-size: 20px;
+                letter-spacing: 0.5px;
+                background-color: #fac0ed;
+            }
+            #nav800 li a:hover {
+                color: #626262;
+                background-color: #ffdcf8;
+                transition: all 0.2s ease-in-out;
+            }
+            #nav800 li a#main {
+                color: #626262;
+                background-color: #ffe3fa;
+                display: none;
+                left: -100%;
+            }
+            #nav800 li a#sec1 {
+                display: none;
+                left: -100%;
+            }
+            #nav800 li a#sec2 {
+                display: none;
+                left: -100%;
+            }
+            #nav800 li a#sec3 {
+                display: none;
+                left: -100%;
+            }
+            #nav800 li a#sec4 {
+                display: none;
+                left: -100%;
+            }
+            #gambar1 {
+                width: 70px;
+                height: 70px;
+            }
+            label.logo {
+                font-family: tangerine;
+                color: #B82D99;
+                vertical-align: middle;
+                font-size: 45px;
+                font-weight: bold;
+            }
+        }
+        
+        .popup {
+            /* display: flex;
+justify-content: center; */
+            box-sizing: border-box;
+            position: absolute;
+            width: 832px;
+            height: 710px;
+            background: #FFDBF7;
+            border: 3px solid #000000;
+            border-radius: 40px;
+            z-index: 3;
+            opacity: 1;
+            /* margin-left: 180px;
+margin-right: 180px; */
+            position: absolute;
+            top: 0%;
+            left: 23.4375vw;
+            z-index: 1;
+            /* 360 */
+        }
+        
+        .BodyLotionPopUpImg {
+            width: 35%;
+            height: 40%;
+            box-sizing: border-box;
+            position: absolute;
+            left: 8%;
+            top: 5%;
+            border-radius: 20px;
+            border: 2px solid #000000;
+            border-color: #000000;
+        }
+        
+        .popup h1 {
+            position: absolute;
+            left: 400px;
+            top: 100px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            color: #706161;
+        }
+        
+        .Price {
+            position: absolute;
+            left: 400px;
+            top: 150px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        
+        .Qty {
+            position: absolute;
+            left: 400px;
+            top: 250px;
+            color: #000000;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+        }
+        
+        .teslogo {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .counter span {
+            display: block;
+            font-size: 100px;
+            cursor: pointer;
+            color: #FFDBF7;
+            color: #000000;
+            /* box-sizing: border-box;
+border-color: #000000;
+border-style: solid;
+border-radius: 50%;
+height: 101px;
+width: 100px; */
+        }
+        
+        .containerdown {
+            box-sizing: border-box;
+            border-color: #000000;
+            border-style: solid;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            left: 357px;
+            top: 318px;
+            background-color: black;
+        }
+        
+        .containerup {
+            box-sizing: border-box;
+            border-color: #000000;
+            border-style: solid;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            left: 682px;
+            top: 318px;
+            background-color: black;
+        }
+        /* .containerbdown {
+position: absolu;
+} */
+        
+        .up {
+            position: absolute;
+            top: 299px;
+            left: 695px;
+        }
+        
+        .down {
+            position: absolute;
+            top: 290px;
+            left: 380px;
+            z-index: 5;
+        }
+        
+        .containerbox {
+            width: 50px;
+            border: 0;
+            line-height: 30px;
+            font-size: 45px;
+            text-align: center;
+            background: #FFDBF7;
+            text-decoration: underline;
+            color: #000000;
+            appearance: none;
+            outline: 0;
+            position: absolute;
+            top: 319px;
+            left: 510px;
+            text-decoration: none;
+        }
+        
+        .buttonclose {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 2%;
+            right: 5%;
+        }
+        
+        .description {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 0%;
+            bottom: 83.33%;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        /* .overlay { */
+        /* position: relative; */
+        /* position: fixed; */
+        /* display: flex; */
+        /* top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+z-index: 5;
+width: 100%;
+height: 100%;
+} */
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            transition: opacity 500ms;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 1;
+        }
+        
+        .overlay:target {
+            visibility: visible;
+            opacity: 1;
+        }
+        /* .popup {
+box-sizing: border-box;
+display: flexbox;
+background: #FFDBF7;
+border: 3px solid #000000;
+border-radius: 40px;
+z-index: 3;
+opacity: 1;
+} */
+        
+        .popup h2 {
+            margin-top: 0;
+            color: #333;
+            font-family: Tahoma, Arial, sans-serif;
+        }
+        
+        .popup .close {
+            /* position: absolute; */
+            transition: all 200ms;
+            display: flex;
+            margin-top: 3%;
+            margin-left: 90%;
+            width: 50px;
+            height: 50px;
+        }
+        
+        .popup .close:hover {
+            color: #06D85F;
+        }
+        
+        .BodyLotionPopUp {
+            box-sizing: border-box;
+            border-style: solid;
+            width: 300px;
+            height: 300px;
+            border-radius: 25px;
+            z-index: 4;
+            margin-left: 40px;
+        }
+        
+        .popup .TitlePopUpBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 35px;
+            line-height: 66px;
+            /* display: flex; */
+            align-items: center;
+            position: absolute;
+            top: 100px;
+            left: 396px;
+            color: #706161;
+        }
+        
+        .popup .PricePopUpBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            position: absolute;
+            left: 415px;
+            top: 150px;
+            color: #000000;
+        }
+        
+        .popup .JumlahPopUpBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            position: absolute;
+            left: 415px;
+            top: 230px;
+            color: #000000;
+        }
+        
+        .popup .DescPopUpBodyLotion {
+            position: absolute;
+            top: 407px;
+            left: 50px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        
+        .popup .TextPopUpBodyLotion {
+            position: absolute;
+            left: 50px;
+            top: 468px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 42px;
+            align-items: center;
+            color: #000000;
+            margin-right: 20px;
+        }
+        
+        .popup .SubTotalBodyLotion {
+            height: 68px;
+            width: 500px;
+            box-sizing: border-box;
+            border-style: none;
+            position: absolute;
+            top: 607px;
+            left: 48px;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 23px
+        }
+        
+        .popup .TextSubtotalBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 63px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            position: absolute;
+            left: 15px;
+        }
+        
+        .popup .SubPriceSubtotalBodyLotion {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 63px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            position: absolute;
+            left: 315px;
+        }
+        
+        .popup .PopUpBodyLotionButton {
+            border: none;
+            background-color: #FDBEBE;
+            border-radius: 42px;
+            padding: 14px 18px;
+            width: 193px;
+            font-size: 16px;
+            cursor: pointer;
+            position: absolute;
+            top: 0%;
+            left: 533px;
+            z-index: 0.1;
+            justify-content: center;
+            align-items: center;
+            /* padding: 10px; */
+            gap: 10px;
+        }
+        
+        .popup .PopUpBodyLotionButton p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+        
+        #BodyCreamm {
+            position: absolute;
+            top: 0%;
+            margin-left: 0;
+            width: 0%;
+            border-style: none;
+            width: 424px;
+            height: 487px;
+        }
+        
+        #BodyButerr {
+            position: absolute;
+            top: -4%;
+            margin-left: 0;
+            width: 0%;
+            border-style: none;
+            width: 579px;
+            height: 477px;
+        }
+        
+        .PopUpBodyLotionButton:hover {
+            background: #E09494;
+            /* opacity: 0.2; */
+        }
+        
+        .PopUpBodyLotionButton p:hover {
+            color: white;
+        }
+        
+        #BodySerumm {
+            position: absolute;
+            top: -4%;
+            margin-left: 0;
+            width: 0%;
+            border-style: none;
+            width: 477px;
+            height: 688px;
+            margin-left: -16px;
+        }
+        
+        /* footer */
+footer{
+    margin-top : 50px;
+    background-color : #FFE5F9;
+    height : 100%;
+  }
+  
+  .flex-foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+  #footer-kiri{
+    margin-left : 0.6510416666666666vw;
+  }
+  
+  #footer-tengah{
+    margin-top : 1.3020833333333333vw;
+  }
+  
+  #footer-kanan{
+    margin-right : 1.3020833333333333vw;
+    margin-top : 9.114583333333334vw;
+  }
+  
+  .logofooterr {
+    width: 8.919vw;
+    height:  8.919vw;
+    margin-top: 0px;
+    display : inline-block;
+    vertical-align: middle;
+  }
+  
+  footer .vorskin {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4vw;
+    /* line-height: 75px; */
+    display : inline-block;
+    vertical-align: middle;
+    /* text-align: right; */
+    color: #B82D99;
+    /* width: 9.5703125vw;
+    height: 15.12605vh; */
+  }
+  
+  .findusat {
+    font-family: 'Poppins';
+    text-align: center;
+    /* position: absolute; */
+    font-size: 2.1vw;
+    font-weight: bold;
+  }
+  
+  .conten {
+    display : flex;
+    justify-content : space-between;
+    /* padding: 10px; */
+    gap: 10px;
+    margin-bottom: 0.6510416666666666vw;
+    /* left: 5%; */
+    /* margin-left: 25px; */
+    /* top: 70.59%; */
+    /* margin-top: -10px; */
+    font-size: large;
+    font-weight: bold;
+    margin-left : 20px;
+  }
+  
+  .PrivacyPolicy {
+    font-family: Poppins;
+    margin-right: 1.2vw;
+    font-size: 1.3020833333333333vw;
+    font-weight: bold;
+  }
+  
+  .PrivacyPolicy:hover{
+    color : #696363;
+  }
+  
+  .TermOfUse {
+    font-family: Poppins;
+    font-size: 1.3020833333333333vw;
+    font-weight: bold;
+  }
+  
+  .TermOfUse:hover{
+    color : #696363;
+  }
+  
+  #kelompok-img{
+    display : flex;
+    margin-top : 2.5041666666666665vw;
+  }
+  
+  .instagram {
+    width: 4.807291666666665vw;
+    height: 7.703081232492997vh;
+    margin-right : 0.6510416666666666vw;
+    /* position: absolute; */
+  }
+  
+  .instagram:hover{
+    opacity: 0.5;
+  }
+  
+  .twitter {
+    width: 4.807291666666665vw;
+    height: 7.703081232492997vh;
+    /* position: absolute; */
+  }
+  
+  .twitter:hover{
+    opacity: 0.5;
+  }
+  
+  .facebook {
+    width: 4.807291666666665vw;
+    height: 7.703081232492997vh;
+    /* position: absolute; */
+  }
+  
+  .facebook:hover{
+    opacity: 0.5;
+  }
+  
+  .copyright {
+    /* position: absolute; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-weight: bold;
+    font-size: 1.271875vw;
+  }
+
+        @media only screen and (max-width: 1100px) {
+            footer {
+                width: 1200px;
+            }
+        
+        
+        .minusbutton {
+            position: absolute;
+            top: 16px;
+            width: 80px;
+            height: 80px;
+            margin-left: -24px;
+        }
+        
+        .plusbutton {
+            position: absolute;
+            top: 10px;
+            width: 80px;
+            height: 80px;
+            margin-left: -54px;
+            /* left: 300px; */
+        }
+        
+        .line {
+            position: absolute;
+            top: 371px;
+            left: 468px;
+            margin-left: -29px;
+            height: 3px;
+            width: 194px;
+            color: black;
+            background-color: #000000;
+            z-index: 10;
+        }
+        
+        .rp {
+            position: absolute;
+            left: 249px;
+            top: 0px;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 63px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+        }
+        
+        .closebutton {
+            width: 76px;
+            height: 75px;
+            /* margin-right: 50px; */
+            position: absolute;
+            right: 3%;
+        }
+        
+        .closebutton:hover {
+            /* visibility: hidden; */
+            color: rgba(156, 108, 108, 0.5);
+            background-color: rgb(255, 125, 125, 0.4);
+            box-sizing: border-box;
+            /* border-style: solid; */
+            border-radius: 100px;
+        }
+        
+        .up:hover {
+            opacity: 0.5;
+        }
+        
+        .down:hover {
+            opacity: 0.5;
+        }
+        
+    }
+
+        @media (max-width:800px) {
+            .box-flex2 {
+                display: block;
+            }
+            .rectangle1 {
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                width: 300px;
+                height: 350px;
+                border-radius: 40px;
+                background: #FFEED5;
+                margin: 0 0 0 0;
+                margin-left: 90px;
+                margin-right: 36px;
+                margin-bottom: 60px;
+            }
+            .bodycare {
+                margin-left: 50px;
+                width: 200px;
+                height: 200px;
+            }
+
+
+        
+        }
+        
+        @media only screen and (max-width: 800px) {
+            .overlay {
+                /* position: static; */
+                position: fixed;
+                /* top: 0; */
+            }
+            .popup {
+                margin-top: 30px;
+                overflow: hidden;
+                box-sizing: border-box;
+                position: absolute;
+                width: 722px;
+                height: 677px;
+                background: #FFDBF7;
+                border: 3px solid #000000;
+                border-radius: 40px;
+                z-index: 3;
+                opacity: 1;
+                position: absolute;
+                top: 0%;
+                /* left: 3.4375vw; */
+                /* margin-right: -99px; */
+                margin-left: -160px;
+                z-index: 1;
+            }
+            .BodyLotionPopUp {
+                box-sizing: border-box;
+                border-style: solid;
+                width: 300px;
+                height: 300px;
+                border-radius: 25px;
+                z-index: 4;
+                margin-left: 30px;
+            }
+            .popup .TitlePopUpBodyLotion {
+                font-size: xx-large;
+                font-size: 10x;
+                left: 363px;
+                font-size: 30px;
+            }
+            .popup .PricePopUpBodyLotion {
+                left: 363px;
+                font-size: 33px;
+            }
+            .minusbutton {
+                position: absolute;
+                top: 28px;
+                width: 58px;
+                height: 58px;
+                margin-left: -34px;
+            }
+            .containerbox {
+                left: 487px;
+                top: 319px;
+            }
+            .line {
+                top: 376px;
+                left: 446px;
+            }
+            .plusbutton {
+                position: absolute;
+                top: 19px;
+                width: 58px;
+                height: 58px;
+                margin-left: -82px;
+            }
+            .popup .JumlahPopUpBodyLotion {
+                font-size: 32px;
+            }
+            .popup .SubTotalBodyLotion {
+                width: 419px;
+                margin-top: -23px;
+            }
+            .rp {
+                font-size: 32px;
+                left: 222px;
+            }
+            .popup .SubPriceSubtotalBodyLotion {
+                left: 288px;
+                font-size: 32px;
+            }
+            .popup .PopUpBodyLotionButton {
+                left: 431px;
+            }
+            .JumlahPopUpBodyLotion {
+                margin-left: -50px;
+            }
+            .popup .DescPopUpBodyLotion {
+                position: absolute;
+                top: 392px;
+                left: 50px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                color: #000000;
+            }
+            .popup .TextPopUpBodyLotion {
+                position: absolute;
+                left: 50px;
+                top: 441px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 42px;
+                align-items: center;
+                color: #000000;
+                margin-right: 20px;
+            }
+            .popup .TextSubtotalBodyLotion {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 63px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+                position: absolute;
+                left: 15px;
+            }
+            .BodyCareTitle {
+                margin-top: 23px;
+                margin-left: -28px;
+                font-family: 'Sacramento';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 90px;
+                color: #5C3333;
+            }
+
+             /* footer */
+             footer .flex-foot {
+                display: block;
+            }
+            footer #kelompok-img {
+                justify-content: center;
+                margin-top: 15px;
+            }
+            footer #logo-footer {
+                /* margin-right :60px; */
+            }
+            footer .conten {
+                display: block;
+                margin: 0;
+                margin-top: 20px;
+                margin-right: 10px;
+            }
+            footer .TermOfUse {
+                margin-top: 40px;
+            }
+            footer .logofooterr {
+                width: 136px;
+                height: 136px;
+            }
+            footer .vorskin {
+                font-size: 61px;
+            }
+            footer .findusat {
+                font-size: 32px;
+            }
+            footer .PrivacyPolicy {
+                font-size: 20px;
+            }
+            footer .TermOfUse {
+                font-size: 20px;
+            }
+            footer .instagram {
+                width: 73px;
+                height: 57px;
+            }
+            footer .twitter {
+                width: 73px;
+                height: 57px;
+            }
+            footer .facebook {
+                width: 73px;
+                height: 57px;
+            }
+            footer .copyright {
+                font-size: 18px;
+            }
+            footer #footer-kiri {
+                display: flex;
+                justify-content: space-between;
+                margin-left: 0;
+            }
+            footer #footer-tengah {
+                margin-top: 10px;
+            }
+            footer #footer-kanan {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                margin-top: 25px;
+            }
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .rectangle1 {
+                filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+                width: 300px;
+                height: 350px;
+                border-radius: 40px;
+                background: #FFEED5;
+                margin: 0 0 0 0;
+                margin-left: 30px;
+                margin-right: 65px;
+                margin-bottom: 60px;
+            }
+            .BodyCareTitle {
+                margin-top: 23px;
+                margin-left: -5px;
+                font-family: 'Sacramento';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 90px;
+                color: #5C3333;
+            }
+            .popup {
+                margin-top: 30px;
+                overflow: hidden;
+                box-sizing: border-box;
+                position: absolute;
+                width: 419px;
+                height: 677px;
+                background: #FFDBF7;
+                border: 3px solid #000000;
+                border-radius: 40px;
+                z-index: 3;
+                opacity: 1;
+                position: absolute;
+                top: 0%;
+                /* left: 3.4375vw; */
+                /* margin-right: -99px; */
+                margin-left: -100px;
+                z-index: 1;
+            }
+            .BodyLotionPopUp {
+                box-sizing: border-box;
+                border-style: solid;
+                width: 158px;
+                height: 157px;
+                border-radius: 25px;
+                z-index: 4;
+                margin-left: 30px;
+            }
+            .popup .TitlePopUpBodyLotion {
+                margin-top: -50px;
+                font-size: 20px;
+                left: 200px;
+            }
+            .closebutton {
+                width: 50px;
+                height: 50px;
+                /* margin-right: 50px; */
+                position: absolute;
+                right: 3%;
+            }
+            .popup .JumlahPopUpBodyLotion {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 52px;
+                position: absolute;
+                left: 253px;
+                top: 92px;
+                color: #000000;
+            }
+            .popup .PricePopUpBodyLotion {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 60px;
+                position: absolute;
+                left: 203px;
+                top: 127px;
+                color: #000000;
+            }
+            .minusbutton {
+                position: absolute;
+                top: -101px;
+                width: 30px;
+                height: 30px;
+                margin-left: -181px;
+            }
+            .plusbutton {
+                position: absolute;
+                top: -110px;
+                width: 30px;
+                height: 30px;
+                margin-left: -326px;
+            }
+            .line {
+                position: absolute;
+                top: 225px;
+                left: 468px;
+                margin-left: -242px;
+                height: 3px;
+                width: 146px;
+                color: black;
+                background-color: #000000;
+                z-index: 10;
+            }
+            .containerbox {
+                width: 50px;
+                border: 0;
+                line-height: 30px;
+                font-size: 28px;
+                text-align: center;
+                background: #FFDBF7;
+                text-decoration: underline;
+                color: #000000;
+                appearance: none;
+                outline: 0;
+                position: absolute;
+                top: 193px;
+                left: 269px;
+                text-decoration: none;
+            }
+            .popup .DescPopUpBodyLotion {
+                position: absolute;
+                top: 230px;
+                left: 34px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                color: #000000;
+            }
+            .popup .TextPopUpBodyLotion {
+                position: absolute;
+                left: 33px;
+                top: 264px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 42px;
+                align-items: center;
+                color: #000000;
+                margin-right: 20px;
+            }
+            .popup .SubTotalBodyLotion {
+                width: 321px;
+                margin-top: -169px;
+                margin-left: -18px;
+                width: 366px;
+            }
+            .rp {
+                font-size: 26px;
+                left: 169px;
+            }
+            .popup .SubPriceSubtotalBodyLotion {
+                left: 225px;
+                font-size: 26px;
+            }
+            .popup .PopUpBodyLotionButton {
+                border: none;
+                background-color: #FDBEBE;
+                border-radius: 42px;
+                padding: 14px 18px;
+                width: 193px;
+                font-size: 16px;
+                cursor: pointer;
+                position: absolute;
+                top: 128%;
+                left: 90px;
+                z-index: 0.1;
+                justify-content: center;
+                align-items: center;
+                /* padding: 10px; */
+                gap: 10px;
+            }
+            .popup .TextSubtotalBodyLotion {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 63px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+                position: absolute;
+                left: 15px;
+            }
+        }

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style-subscription.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Podkova&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <a href="#" id="hamburger">
+        <span class="burger"></span>
+        <span class="burger"></span>
+        <span class="burger"></span>
+    </a>
+    <nav>
+        <ul>
+            <li class="sub"><a href="../home/home.html">Home</a></li>
+            <li class="sub"><a href="../about/about.html">About</a></li>
+            <li class="sub"><a href="../promotions/promotions.html">Promotions</a></li>
+            <li class="sub"><a href="../store/store.html">Store</a></li>
+            <li class="utama"><a href="#">Subscription</a></li>
+        </ul>
+    </nav>
+    <div id="logo">
+        <label class="logo">VorSkin</label>
+        <img id="gambar1" src="../assets/LOGO VORSKIN.png" alt="Logo">
+    </div>
+</header>
+
+<div id="nav800">
+    <ul>
+        <li> <a id="sec1" href="../home/home.html">Home</a></li>
+        <li> <a id="sec2" href="../about/about.html">About</a></li>
+        <li> <a id="sec3" href="../promotions/promotions.html">Promotions</a></li>
+        <li> <a id="sec4" href="../store/store.html">Store</a></li>
+        <li> <a id="main" href="#">Subscription</a></li>
+    </ul>
+</div>
+
+    <main>
+        <div class="flex">
+            <div>
+                <div id="isi-subscribe">
+                    <div id="tulisan-kiri">
+                        <label id="logo-subscription">VorSkin</label>
+                        <div id="garis-bawah"></div>
+                        <div id="tulisan-subscription">
+                            Subscribe to get more Information and Discount from us 
+                        </div>
+                    </div>
+                    
+                    <div id="box-kanan">
+                        <div class="flex">
+                            <div id="box-subscribe-kanan">
+                                <form>
+                                    <div class="kolompertanyaan">
+                                        <div class="tulisan">Full Name</div>
+                                        <input type="text" name="FullName" id="FullName" placeholder="Must Not be Empty"  onchange="validateName()">
+                                        <div id="errorFullName" class="error">
+                                            ! Please Input UserName
+                                        </div>
+                                    </div>
+        
+                                    <div class="kolompertanyaan">
+                                        <div class="tulisan">Email Address</div>
+                                        <input type="text" name="Email" id="Email" placeholder="Must use @gmail format" onchange="validateEmail()">
+                                        <div id="errorEmail" class="error">
+                                            ! Please Input With Correct Format
+                                        </div>
+                                    </div>
+        
+                                    <div class="kolompertanyaan">
+                                        <div class="tulisan">Phone Number</div>
+                                        <input type="text" name="PhoneNumber" id="PhoneNumber" placeholder="Must Consist of 12 Numbers" onchange="validatePhoneNumber()">
+                                        <div id="errorPhoneNumber" class="error">
+                                            ! Must Contains 12 Numbers 
+                                        </div>
+                                    </div>
+        
+                                    <div class="kolompertanyaan">
+                                        <div class="tulisan">Preferences</div>
+                                        <!-- <select name="preference" id="prefence">
+                                            <option value="Bodycare">Bodycare</option>
+                                            <option value="Skincare">Skincare</option>
+                                        </select> -->
+                                        <input type="text" name="Preference" id="Preference" placeholder="Skincare or Bodycare" onchange="validatePreference()">
+                                        <div id="errorPreference" class="error">
+                                            ! Must be between Skincare or Bodycare
+                                        </div>
+                                    </div>
+        
+                                    <div id="kolomcek">
+                                        <input type="checkbox" name="cek" id="cek" value="benar" onchange="validateCheckbox()">
+                                        <span id="tulisan">Agree to receive Newsletter</span>
+                                        <div id="errorCheckbox" class="errorbox">
+                                            ! Required
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="oldbutton" id="tombol" type="button" onclick="validate()">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="flex-foot">
+          <div id="footer-kiri">
+            <div id="logo-footer">
+              <img class="logofooterr" src="../assets/LOGO VORSKIN.png">
+              <p class="vorskin ">Vorskin</p>
+            </div>
+            <div class="conten">
+              <p class="PrivacyPolicy">Privacy Policy</p>
+              <p class="TermOfUse ">Term Of Use</p>
+            </div>
+          </div>
+      
+          <div id="footer-tengah">
+            <div id="tempat-find">
+              <p class="findusat">FIND US AT:</p>
+            </div>
+            <div id="kelompok-img">
+                <a href="https://www.instagram.com/slcbinusuniv/"><img class="instagram" src="../assets/instagram.svg" alt=" " srcset=" "></a>
+                <a href="https://twitter.com/BINUS_UNIV"><img class="twitter" src="../assets/twitter.svg" alt=" " srcset=" "></a>
+                <a href="https://www.facebook.com/universitasbinanusantara"><img class="facebook" src="../assets/facebook.svg" alt=" " srcset=" "></a>
+            </div>
+          </div>
+    
+          <div id="footer-kanan">
+            <p class="copyright">&copy;VOrSkins. All Right Reserved</p>
+          </div>
+        </div>
+
+      </footer>
+    <script src="script-subscription.js"></script>
+</body>
+</html>
